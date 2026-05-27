@@ -22,3 +22,10 @@ Assigns data type
         │
         ▼
 Performs allowed operations
+DATA TYPES
+    │
+    ├── int      → whole numbers
+    ├── float    → decimal numbers
+    ├── str      → text
+    ├── bool     → True/False
+    └── None     → empty value
