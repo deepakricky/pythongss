@@ -29,3 +29,62 @@ DATA TYPES
     ├── str      → text
     ├── bool     → True/False
     └── None     → empty value
+Operators are special symbols used to perform operations on values and variables in python.
+2 + 3
+2 and 3 operands
++ is defined operator
+1. Arithmetic operators: +, -, *, / etc.
+2. Assignment operators: =, +=, -= etc.
+3. Comparison operators: ==, >, >=, <, != etc.
+4. Logical operators: and, or, not.
+5. Membership Operators
+6. Identity Operators
+Numbers
+   │
+   ▼
+Operator Applied
+   │
+   ▼
+Python Performs Calculation
+   │
+   ▼
+Result Returned
+comparison operators are used to know relations between two values or variables
+
+AND
+| A     | B     | Result |
+| ----- | ----- | ------ |
+| True  | True  | True   |
+| True  | False | False  |
+| False | True  | False  |
+| False | False | False  |
+OR
+| A     | B     | Result |
+| ----- | ----- | ------ |
+| True  | True  | True   |
+| True  | False | True   |
+| False | True  | True   |
+| False | False | False  |
+
++  → add
+-  → subtract
+*  → multiply
+/  → decimal division
+// → whole division
+%  → remainder
+** → power
+/ = returns float
+// = returns floor value
+= assignment
+== comparison
+OPERATORS
+   │
+   ├── Arithmetic
+   │      + - * / // % **
+   │
+   ├── Comparison
+   │      > < >= <= == !=
+   │
+   └── Logical
+          and or not
+
