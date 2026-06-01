@@ -37,8 +37,8 @@ Operators are special symbols used to perform operations on values and variables
 2. Assignment operators: =, +=, -= etc.
 3. Comparison operators: ==, >, >=, <, != etc.
 4. Logical operators: and, or, not.
-5. Membership Operators
-6. Identity Operators
+5. Membership Operators: in, not in
+6. Identity Operators: is, is not
 Numbers
    │
    ▼
@@ -87,4 +87,8 @@ OPERATORS
    │
    └── Logical
           and or not
+   
+Membership operators in Python are keywords used to test whether a value or a variable exists within a sequence or a collection.
+Identity operators are used to determine whether two variables point to the exact same object in memory.
+
 
