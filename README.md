@@ -39,6 +39,7 @@ Operators are special symbols used to perform operations on values and variables
 4. Logical operators: and, or, not.
 5. Membership Operators: in, not in
 6. Identity Operators: is, is not
+7. Bitwise operators: & | ^ ~ << >>
 Numbers
    │
    ▼
@@ -91,4 +92,47 @@ OPERATORS
 Membership operators in Python are keywords used to test whether a value or a variable exists within a sequence or a collection.
 Identity operators are used to determine whether two variables point to the exact same object in memory.
 
+Bitwise operators: Bitwise operators in Python are used to perform operations on binary numbers (bits).
 
+conditional statements:
+foundation of decision making statements in python 
+allow program to make decision
+They allow a program to choose different actions based on whether a condition is True or False
+
+START
+             |
+       [Condition?]
+         /      \
+      YES        NO
+       |          |
+    [Do A]     [Do B]
+         \      /
+            END
+
+| Type         | Purpose                             |
+| ------------ | ----------------------------------- |
+| Simple if    | Execute code when condition is True |
+| if-else      | Choose between two actions          |
+| if-elif-else | Choose among multiple actions       |
+| Nested if    | Condition inside another condition  |
+| Multiple if  | Independent condition checks        |
+
+**if else syntax:**
+
+if condition:
+    statements
+else:
+    statements
+
+**if elif else syntax:**
+
+if condition1:
+    code
+elif condition2:
+    code
+elif condition3:
+    code
+else:
+    code
+Conditions Always Return Boolean Values
+Operators used in cond stat are comparison operators
