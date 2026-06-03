@@ -136,3 +136,36 @@ else:
     code
 Conditions Always Return Boolean Values
 Operators used in cond stat are comparison operators
+
+While loop: A while loop is used to repeatedly execute a block of code as long as a condition remains True.
+while condition:
+    statements
+
+For: A for loop is used to iterate through a sequence like list, tuple, or string [iterables] 
+In for loop we know exactly how many times the block should execute.
+
+for i in range(stop):
+    ...
+for i in range(start, stop):
+    ...
+for i in range(start, stop, step):
+    ...
+
+repetitions are known in for and not known in while loop
+
+**LOOP CONTROL STATEMENTS**
+
+Sometimes we need to change loop behavior.
+
+Python provides:
+
+break
+continue
+pass
+
+Nested Loop: A nested loop is simply a loop inside another loop.
+Nested Loops: for i in range():
+    for j in range():
+        statements
+
+
