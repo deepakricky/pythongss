@@ -137,7 +137,11 @@ else:
 Conditions Always Return Boolean Values
 Operators used in cond stat are comparison operators
 
+Loop: Loop is used to repeatedly execute a block of code efficiently without rewriting it
+
 While loop: A while loop is used to repeatedly execute a block of code as long as a condition remains True.
+Syntax:
+
 while condition:
     statements
 
@@ -167,5 +171,60 @@ Nested Loop: A nested loop is simply a loop inside another loop.
 Nested Loops: for i in range():
     for j in range():
         statements
+
+LOOPS
+│
+├── FOR LOOP
+│   ├── range()
+│   ├── list
+│   ├── string
+│   └── tuple
+│
+├── WHILE LOOP
+│   ├── condition
+│   └── counter update
+│
+├── CONTROL STATEMENTS
+│   ├── break
+│   ├── continue
+│   └── pass
+│
+└── NESTED LOOPS
+    ├── tables
+    └── patterns
+
+String is a sequence of characters enclosed with in " " or ' ' or ''' ''' (for mult line text)
+Strings are immutable, once created cannot be changed directly.
+len() used to know lenghth of the string. space is also counted while checking len of string.
+
+String indexing:
+Python
+
+P  y  t  h  o  n
+0  1  2  3  4  5
+-6 -5 -4 -3 -2 -1
+
+Positive → Left to Right →
+Negative → Right to Left ←
+
+String slicing: extracting a part of string
+Syntax:
+string[start:end]
+
+Methods are bulding tool for strings
+
+Methods of strings:
+upper()
+lower()
+title()
+strip()
+replace()
+
+
+
+
+
+
+
 
 
