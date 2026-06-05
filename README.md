@@ -221,6 +221,58 @@ strip()
 replace()
 split(): Converts a string into a list.
 
+List:list is a built-in, mutable, and ordered collection of items enclosed in square brackets [] and separated by commas. It is a foundational data structure that allows you to store, alter, and arrange multiple elements—even of different data types—under a single variable name.
+Syntax: my_list = [item1, item2, item3]
+
+# Integer list
+numbers = [1, 2, 3, 4, 5]
+
+# String list
+names = ["Alice", "Bob", "Charlie"]
+
+# Mixed data types
+mixed = [1, "hello", 3.14, True]
+
+# Empty list
+empty = []
+
+remove(): remove by value
+delete(): removes my index
+
+**List statistics**
+
+len()
+print(len(numbers))
+
+Counts total items.
+
+sum()
+print(sum(numbers))
+
+Adds all numbers.
+
+min()
+print(min(numbers))
+
+Smallest value.
+
+max()
+print(max(numbers))
+
+Largest value.
+
+**List comprehension**
+EX:
+squares = [i ** 2 for i in range(1, 6)]
+print(squares)
+
+For coping the lists:
+b = a.copy()
+or
+b = a[:]
+
+
+
 
 
 
