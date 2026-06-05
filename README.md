@@ -219,7 +219,7 @@ lower()
 title()
 strip()
 replace()
-
+split(): Converts a string into a list.
 
 
 
