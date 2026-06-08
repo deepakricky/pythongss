@@ -334,6 +334,13 @@ greet_user("Josh")
 
 Types of FunctionsBuilt-in Functions: Pre-installed utilities ready to use out-of-the-box, such as print(), len(), type(), and max().User-Defined Functions: Custom blocks of code built by developers to handle specific application logic.Anonymous (Lambda) Functions: Short, single-expression functions created using the lambda keyword instead of def.Inner / Nested Functions: Functions defined inside another function, often used to hide helper logic or create closures.
 
+A lambda function is a small, anonymous function that is defined without a name. While normal functions in Python are created using the def keyword, lambda functions use the lambda keyword.
+lambda arguments: expression
+Example:
+square = lambda x: x ** 2
+
+print(square(5))  # Output: 25
+
 
 
 
