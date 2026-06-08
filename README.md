@@ -271,6 +271,65 @@ b = a.copy()
 or
 b = a[:]
 
+**Tuples, Sets and Dictionaries:**
+Tuple: Immutable and ordered
+()
+Set: A set is a collection of unique items.
+{}
+Union (a | b)
+Intersection a & b
+Difference a - b
+Bitwise XOR print(a ^ b)
+Dictionaries: A ⁠Python dictionary is a built-in data structure that stores information in key-value pairs, allowing you to retrieve data efficiently using a unique label rather than a numeric position. It is defined using curly braces {} with colons : separating keys and values
+
+CREATING DICTIONARIES
+student = {
+    "name": "Josh",
+    "age": 22,
+    "grade": "A",
+    "courses": ["Python", "AI"]
+}
+ACCESSING VALUES
+print(student["name"])
+
+Output:
+
+Josh
+USING GET()
+print(student.get("age"))
+
+Safer method.
+
+DEFAULT VALUES
+print(student.get("gpa", 0.0))
+
+If key missing:
+
+Return default value.
+
+ADDING DATA
+student["university"] = "PRIST"
+UPDATING DATA
+student["age"] = 23
+REMOVING DATA
+del student["grade"]
+
+OR
+
+removed = student.pop("age")
+ITERATING THROUGH DICTIONARIES 🔄
+for key, value in student.items():
+    print(f"{key}: {value}")
+IMPORTANT METHODS
+print(student.keys())
+print(student.values())
+print(len(student))
+
+
+
+
+
+
 
 
 
