@@ -325,6 +325,18 @@ print(student.keys())
 print(student.values())
 print(len(student))
 
+**Functions**: A function is a reusable block of code that runs only when you call it.
+Example:
+def greet_user(name):
+    print(f"Hello, {name}!")
+
+greet_user("Josh")
+
+Types of FunctionsBuilt-in Functions: Pre-installed utilities ready to use out-of-the-box, such as print(), len(), type(), and max().User-Defined Functions: Custom blocks of code built by developers to handle specific application logic.Anonymous (Lambda) Functions: Short, single-expression functions created using the lambda keyword instead of def.Inner / Nested Functions: Functions defined inside another function, often used to hide helper logic or create closures.
+
+
+
+
 
 
 
