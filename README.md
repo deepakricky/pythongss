@@ -341,6 +341,56 @@ square = lambda x: x ** 2
 
 print(square(5))  # Output: 25
 
+**File Handling**
+File handling in Python allows you to create, read, update, and delete files permanently on a storage device using the built-in open() function. Instead of manually opening and closing files, the modern industry standard is to use the with statement context manager, which handles resource cleanup automatically.
+
+open(filename, mode)
+'r': Read mode (Default). 
+Ex: file = open("students.txt", "r")
+
+with open("students.txt", "r") as file:
+    content = file.read()
+
+| Mode   | Meaning      |
+| ------ | ------------ |
+| `"r"`  | Read         |
+| `"w"`  | Write        |
+| `"a"`  | Append       |
+| `"r+"` | Read + Write |
+| `"rb"` | Read Binary  |
+| `"wb"` | Write Binary |
+
+Reading a file:
+Method 1 - reading entire file
+with open("students.txt", "r") as file:
+    content = file.read()
+print(content)
+
+method 2 - reading line by line
+with open("students.txt", "r") as file:
+    for line in file:
+        print(line.strip())
+
+**Append**: Append mode ('a') adds new content directly to the end of an existing file without modifying or deleting any of its current data.
+Example:
+with open("students.txt", "a") as file:
+    file.write("Vamshi: 79\n")
+
+**Reading into a list**
+with open("students.txt", "r") as file:
+    lines = file.readlines()
+
+**Exception handling** in ⁠Python is a mechanism used to manage runtime errors and prevent applications from crashing abruptly.
+Syntax
+
+try:
+    # risky code
+
+except:
+    # handles error
+
+
+
 
 
 
