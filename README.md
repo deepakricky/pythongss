@@ -389,8 +389,35 @@ try:
 except:
     # handles error
 
+**OOPS**
+OOP is a programming style where you organize code using objects and classes.
+Object-Oriented Programming is a programming paradigm that organizes code using objects that contain both data and behavior.
 
+A **class** is a blueprint or design.
+class Student:
+    pass
+    
+An **object** is the actual thing created from the blueprint.
 
+A **constructor** runs automatically when an object is created.
+
+to create object.. python create mem itself and calls constructor and stores values name age gpa inside an onject
+
+class Student:                  # ← Class
+
+    def __init__(...):          # ← Method
+
+    def introduce(...):         # ← Method
+
+student1 = Student(...)         # ← Object
+
+**Inheritance**: allows a new class to inherit all the attributes and methods of an existing class.
+
+Single: Derived class inherits from one parent class.
+Multiple: Child class inherits from more than one parent class.
+Multilevel: A class inherits from a child class, creating a chain.
+Hierarchical: Multiple children inherit from a single parent class.
+Hybrid: A combination of two or more types.
 
 
 
