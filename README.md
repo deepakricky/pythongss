@@ -411,6 +411,11 @@ class Student:                  # ← Class
 
 student1 = Student(...)         # ← Object
 
+Class: Student
+Methods: __init__() and introduce()
+Object: student1
+Attributes (data): name, age, gpa (self.name, self.age, self.gpa)
+
 **Inheritance**: allows a new class to inherit all the attributes and methods of an existing class.
 
 Single: Derived class inherits from one parent class.
