@@ -389,9 +389,14 @@ try:
 except:
     # handles error
 
-**OOPS**
+**OOPS**: It is a way of organizing the code by combining data that are know to be attributes and actions that are known to be methods into a single unit called object.
 OOP is a programming style where you organize code using objects and classes.
 Object-Oriented Programming is a programming paradigm that organizes code using objects that contain both data and behavior.
+
+Encapsulation: Bundle data and methods
+Inheritance: Reuse code					EIPA
+Polymorphism: Same methods, different behavior
+Abstraction: Hide the complexity
 
 A **class** is a blueprint or design.
 class Student:
@@ -416,6 +421,10 @@ Methods: __init__() and introduce()
 Object: student1
 Attributes (data): name, age, gpa (self.name, self.age, self.gpa)
 
+Why do we write self?
+self refers to the current object.
+Without self, Python wouldn't know which object's data you're talking about.
+
 **Inheritance**: allows a new class to inherit all the attributes and methods of an existing class.
 
 Single: Derived class inherits from one parent class.
@@ -424,6 +433,13 @@ Multilevel: A class inherits from a child class, creating a chain.
 Hierarchical: Multiple children inherit from a single parent class.
 Hybrid: A combination of two or more types.
 
+__str__() is a special method that tells Python:
+"When someone prints this object, show this text."
+
+**Encapsulation:** 
+Keeping data and the methods that work on that data together inside a class, and controlling direct access to that data.
+
+It’s the process of combining the data and methods into a single class and restricting direct access to the data.
 
 
 
