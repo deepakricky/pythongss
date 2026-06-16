@@ -441,7 +441,17 @@ Keeping data and the methods that work on that data together inside a class, and
 
 It’s the process of combining the data and methods into a single class and restricting direct access to the data.
 
+**Module**
+A module is a python file .py that contains functions, classes and variables that can be reused in other programs.
+import math
+import random
+import date time
+import os
 
+**Packages:**
+Package is a directory that contains multiple Python modules grouped together to structure code into a hierarchical, organized namespace.
+
+For example pandas is a package containing many modules.
 
 
 
