@@ -453,6 +453,47 @@ Package is a directory that contains multiple Python modules grouped together to
 
 For example pandas is a package containing many modules.
 
+**Packages** to install external packages
+pip intsall matplotlib
+pip install
+to install the external package
+
+**NumPy**
+NumPy is a Python library used to work with arrays, numbers, and mathematical calculations quickly and efficiently.
+pip install numpy
+import numpy as np
+
+**Vectorization** is the process of applying operations to entire NumPy arrays at once without using explicit Python loops, resulting in faster and more efficient computations.
+
+import numpy as np
+
+arr = np.array([10, 20, 30, 40, 50])
+
+print("Mean:", np.mean(arr))
+print("Median:", np.median(arr))
+print("Std Dev:", np.std(arr))
+print("Variance:", np.var(arr))
+print("Min:", np.min(arr))
+print("Max:", np.max(arr))
+print("Sum:", np.sum(arr))
+
+**Pandas** 
+
+is a Python library used for data analysis and data manipulation.
+It helps you work with data in the form of tables (rows and columns), similar to Excel spreadsheets.
+
+Interview Definition
+Pandas is an open-source Python library that provides Series and DataFrame data structures for efficient data manipulation, analysis, and processing.
+
+Pandas is a Python library used to organize, clean, analyze, and manipulate data efficiently.
+
+pip install pandas
+
+import pandas as pd
+
+Two Main Data Structures:
+1. Series (1-Dimensional)
+2. DataFrame (2-Dimensional)
 
 
 
