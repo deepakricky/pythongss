@@ -495,8 +495,24 @@ Two Main Data Structures:
 1. Series (1-Dimensional)
 2. DataFrame (2-Dimensional)
 
+**Seaborn**
 
+is a Python library used to create beautiful and informative data visualizations (graphs and charts).
+It is built on top of Matplotlib and makes plotting much easier.
 
+Seaborn is a Python library used to create attractive statistical graphs and charts with minimal code.
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+Seaborn is a Python data visualization library built on top of Matplotlib that provides a high-level interface for creating attractive and informative statistical graphics.
+
+Bash:
+pip install seaborn
+
+import:
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 
