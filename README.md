@@ -2,16 +2,25 @@ Why python?
 Python is readable and versatile, used in web dev ai and cyb etc
 its most demanded language 
 its also used in banking health care and etc. 
+
 What is programming?
 Programming is the process of creating a set of detailed instructions that tell a computer how to perform a specific task or solve a problem. 
 set of rules we give to write that code is prog lang
 Python = readable + powerful + understandable + free
 print() is a built in function used to display the text and value of the variables.
+
 Data types: Data types are categories used to define the kind of value a variable holds, which in turn determines what operations can be performed on that data.
 int float string booleans 
+
 Integer stores whole numbers.. -5,5,0,100,999
 float 100.22, float data type stores decimal point numbers
 Python officially defines floating-point numbers as numeric types used for decimal values.
+
+**Variable scope:**
+Local: declared in a fun or loop
+Global: variables declared ouside of all fun and classes
+Class module: declared inside a class
+
 User enters data
         │
         ▼
@@ -163,9 +172,9 @@ Sometimes we need to change loop behavior.
 
 Python provides:
 
-break
-continue
-pass
+break: exits the loop immediately
+continue: skips the rest of the current iteration and jumps to next cycle of loop
+pass: does nothing, serves as place holder
 
 Nested Loop: A nested loop is simply a loop inside another loop.
 Nested Loops: for i in range():
@@ -464,6 +473,8 @@ pip install numpy
 import numpy as np
 
 **Vectorization** is the process of applying operations to entire NumPy arrays at once without using explicit Python loops, resulting in faster and more efficient computations.
+
+array and lists diff: an array stores a fixed-size collection of identical data types in sequential memory, while a list is a flexible, dynamic structure capable of holding varied data types
 
 import numpy as np
 
