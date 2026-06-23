@@ -2,6 +2,7 @@ Why python?
 Python is readable and versatile, used in web dev ai and cyb etc
 its most demanded language 
 its also used in banking health care and etc. 
+Active global community. This means if you ever get stuck, chances are thousands of people have already solved the same issue 
 
 What is programming?
 Programming is the process of creating a set of detailed instructions that tell a computer how to perform a specific task or solve a problem. 
@@ -16,7 +17,7 @@ Integer stores whole numbers.. -5,5,0,100,999
 float 100.22, float data type stores decimal point numbers
 Python officially defines floating-point numbers as numeric types used for decimal values.
 
-**Variable scope:**
+**Variable scope:** containers that store data
 Local: declared in a fun or loop
 Global: variables declared ouside of all fun and classes
 Class module: declared inside a class
