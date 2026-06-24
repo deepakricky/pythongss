@@ -43,13 +43,16 @@ Operators are special symbols used to perform operations on values and variables
 2 + 3
 2 and 3 operands
 + is defined operator
-1. Arithmetic operators: +, -, *, / etc.
-2. Assignment operators: =, +=, -= etc.
-3. Comparison operators: ==, >, >=, <, != etc.
+1. Arithmetic operators: +, -, *, /, %, //, ** etc.
+2. Assignment operators: =, +=, -=, /=, %=, //=, **= etc. 
+3. Comparison operators: ==, >, >=, <, >, != etc.
 4. Logical operators: and, or, not.
-5. Membership Operators: in, not in
-6. Identity Operators: is, is not
-7. Bitwise operators: & | ^ ~ << >>
+  and - Returns True only if both conditions are true.
+  or - Returns True if at least one condition is true.
+  not - Inverts the outcome (reverses the boolean value).
+6. Membership Operators: in, not in
+7. Identity Operators: is, is not
+8. Bitwise operators: & | ^ ~ << >>
 Numbers
    │
    ▼
