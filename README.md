@@ -50,9 +50,16 @@ Operators are special symbols used to perform operations on values and variables
   and - Returns True only if both conditions are true.
   or - Returns True if at least one condition is true.
   not - Inverts the outcome (reverses the boolean value).
-6. Membership Operators: in, not in
-7. Identity Operators: is, is not
-8. Bitwise operators: & | ^ ~ << >>
+5. Membership Operators: in, not in
+6. Identity Operators: is, is not
+7. Bitwise operators: & | ^ ~ << >>
+   Operator	Name
+&	Bitwise AND
+|	Bitwise OR
+^	Bitwise XOR
+~	Bitwise NOT
+<<	Left Shift
+>>	Right Shift
 Numbers
    │
    ▼
