@@ -18,7 +18,7 @@ float 100.22, float data type stores decimal point numbers
 Python officially defines floating-point numbers as numeric types used for decimal values.
 
 **Variable scope:** containers that store data
-Local: declared in a fun or loop
+Local: declared in a func or loop
 Global: variables declared ouside of all fun and classes
 Class module: declared inside a class
 
@@ -180,7 +180,6 @@ repetitions are known in for and not known in while loop
 **LOOP CONTROL STATEMENTS**
 
 Sometimes we need to change loop behavior.
-
 Python provides:
 
 break: exits the loop immediately
@@ -294,12 +293,14 @@ b = a[:]
 **Tuples, Sets and Dictionaries:**
 Tuple: Immutable and ordered
 ()
+
 Set: A set is a collection of unique items.
 {}
 Union (a | b)
 Intersection a & b
 Difference a - b
 Bitwise XOR print(a ^ b)
+
 Dictionaries: A ⁠Python dictionary is a built-in data structure that stores information in key-value pairs, allowing you to retrieve data efficiently using a unique label rather than a numeric position. It is defined using curly braces {} with colons : separating keys and values
 
 CREATING DICTIONARIES
@@ -347,10 +348,9 @@ print(len(student))
 
 **Functions**: A function is a reusable block of code that runs only when you call it.
 Example:
-def greet_user(name):
-    print(f"Hello, {name}!")
-
-greet_user("Josh")
+def greet(name):      # name = parameter
+    print(f"Hello {name}")
+greet("Deepak")       # "Deepak" = argument
 
 Types of FunctionsBuilt-in Functions: Pre-installed utilities ready to use out-of-the-box, such as print(), len(), type(), and max().User-Defined Functions: Custom blocks of code built by developers to handle specific application logic.Anonymous (Lambda) Functions: Short, single-expression functions created using the lambda keyword instead of def.Inner / Nested Functions: Functions defined inside another function, often used to hide helper logic or create closures.
 
