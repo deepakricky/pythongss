@@ -1,5 +1,6 @@
 Why python?
 Python is readable and versatile, used in web dev ai and cyb etc
+Python was invented by Dutch programmer Guido van Rossum.
 its most demanded language 
 its also used in banking health care and etc. 
 Active global community. This means if you ever get stuck, chances are thousands of people have already solved the same issue 
