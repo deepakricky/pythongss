@@ -115,7 +115,8 @@ Identity operators are used to determine whether two variables point to the exac
 
 Bitwise operators: Bitwise operators in Python are used to perform operations on binary numbers (bits).
 
-conditional statements:
+**Conditional statements**:
+
 foundation of decision making statements in python 
 allow program to make decision
 They allow a program to choose different actions based on whether a condition is True or False
