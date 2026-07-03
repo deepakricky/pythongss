@@ -159,7 +159,8 @@ else:
 Conditions Always Return Boolean Values
 Operators used in cond stat are comparison operators
 
-Loop: Loop is used to repeatedly execute a block of code efficiently without rewriting it
+**Loop**: Loop is used to repeatedly execute a block of code efficiently without rewriting it
+A loop is a programming structure that repeats a block of code until a condition is met or sequence is exhausted.
 
 While loop: A while loop is used to repeatedly execute a block of code as long as a condition remains True.
 Syntax:
