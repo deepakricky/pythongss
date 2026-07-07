@@ -215,7 +215,7 @@ LOOPS
     ├── tables
     └── patterns
 
-String is a sequence of characters enclosed with in " " or ' ' or ''' ''' (for mult line text)
+**String** is a sequence of characters enclosed with in " " or ' ' or ''' ''' (for mult line text)
 Strings are immutable, once created cannot be changed directly.
 len() used to know lenghth of the string. space is also counted while checking len of string.
 
@@ -234,14 +234,28 @@ Syntax:
 string[start:end]
 
 Methods are bulding tool for strings
+reverse: [::-1]
+
+Looping through strings:
+name="Python"
+for letter in name:
+      print(letter)
+
+name="Python"
+i=0
+while i<len(name):
+    print(name[i])
+    i+=1
 
 Methods of strings:
 upper()
 lower()
+swapcase(): replaces small let with cap and vice versa
 title()
-strip()
-replace()
+strip(): removes unnecassary spaces at start and end
+replace(): 
 split(): Converts a string into a list.
+find(): 
 
 List:list is a built-in, mutable, and ordered collection of items enclosed in square brackets [] and separated by commas. It is a foundational data structure that allows you to store, alter, and arrange multiple elements—even of different data types—under a single variable name.
 Syntax: my_list = [item1, item2, item3]
