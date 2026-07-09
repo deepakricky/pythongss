@@ -257,7 +257,8 @@ replace():
 split(): Converts a string into a list.
 find(): 
 
-List:list is a built-in, mutable, and ordered collection of items enclosed in square brackets [] and separated by commas. It is a foundational data structure that allows you to store, alter, and arrange multiple elements—even of different data types—under a single variable name.
+**List**:
+list is a built-in, mutable, and ordered collection of items enclosed in square brackets [] and separated by commas. It is a foundational data structure that allows you to store, alter, and arrange multiple elements—even of different data types—under a single variable name.
 Syntax: my_list = [item1, item2, item3]
 
 # Integer list
@@ -272,8 +273,15 @@ mixed = [1, "hello", 3.14, True]
 # Empty list
 empty = []
 
+**Nested List**
+s=[[1,2,3],[1,2]]
+
+append()
+insert(1,115)
+
 remove(): remove by value
-delete(): removes my index
+pop(): removes by index
+del()
 
 **List statistics**
 
@@ -296,6 +304,9 @@ max()
 print(max(numbers))
 
 Largest value.
+
+List slicing:
+print(nums[2:6])
 
 **List comprehension**
 EX:
