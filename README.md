@@ -319,10 +319,27 @@ or
 b = a[:]
 
 **Tuples, Sets and Dictionaries:**
-Tuple: Immutable and ordered
-()
 
-Set: A set is a collection of unique items.
+**Tuple**: Immutable and ordered, indexed, store diff datatypes, allows duplicates
+()
+used to store sens data that should not be modified later
+one element tuple = (5,) always needs a comma
+
+Tuple unpacking:
+student=("Rajesh",23,"CSE")
+name,age,branch=student
+print(name)
+print(age)
+print(branch)
+
+Nested tuple: tuple inside a tuple
+Ex:
+marks=(("Math",95),
+       ("Science",92))
+print(marks[1])
+
+
+**Set**: A set is a collection of unique items.
 {}
 Union (a | b)
 Intersection a & b
