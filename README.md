@@ -340,13 +340,26 @@ print(marks[1])
 
 
 **Set**: A set is a collection of unique items.
+unordered, mutable
 {}
+
+Set Operations:
+
 Union (a | b)
 Intersection a & b
 Difference a - b
-Bitwise XOR print(a ^ b)
+Symmetric difference:  print(a ^ b)
 
-Dictionaries: A ⁠Python dictionary is a built-in data structure that stores information in key-value pairs, allowing you to retrieve data efficiently using a unique label rather than a numeric position. It is defined using curly braces {} with colons : separating keys and values
+add(element): Adds a single element to the set. If the element already exists, nothing happens.
+update(iterable): Adds multiple elements from a list, tuple, dictionary, or another set.
+remove(element): Removes the specified element. Raises a KeyError if the element is not found.
+discard(element): Removes the specified element safely. Does not raise an error if the element is missing.
+pop(): Removes and returns an arbitrary element. Raises a KeyError if the set is empty.
+clear(): Removes all elements, leaving the set completely empty.
+
+**Dictionaries**:
+
+A ⁠Python dictionary is a built-in data structure that stores information in key-value pairs, allowing you to retrieve data efficiently using a unique label rather than a numeric position. It is defined using curly braces {} with colons : separating keys and values
 
 CREATING DICTIONARIES
 student = {
