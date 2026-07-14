@@ -360,6 +360,8 @@ clear(): Removes all elements, leaving the set completely empty.
 **Dictionaries**:
 
 A ⁠Python dictionary is a built-in data structure that stores information in key-value pairs, allowing you to retrieve data efficiently using a unique label rather than a numeric position. It is defined using curly braces {} with colons : separating keys and values
+ordered
+mutable
 
 CREATING DICTIONARIES
 student = {
