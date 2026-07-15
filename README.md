@@ -407,6 +407,7 @@ print(student.values())
 print(len(student))
 
 **Functions**: A function is a reusable block of code that runs only when you call it.
+
 Example:
 def greet(name):      # name = parameter
     print(f"Hello {name}")
