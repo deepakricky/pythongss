@@ -422,6 +422,22 @@ square = lambda x: x ** 2
 
 print(square(5))  # Output: 25
 
+UNCTION lifecycle:
+
+Define function
+
+function stored in memory
+
+function called
+
+Parameters receiueves the value
+
+code executes
+
+return value(optional)
+
+program continues
+
 **File Handling**
 File handling in Python allows you to create, read, update, and delete files permanently on a storage device using the built-in open() function. Instead of manually opening and closing files, the modern industry standard is to use the with statement context manager, which handles resource cleanup automatically.
 
