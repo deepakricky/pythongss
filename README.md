@@ -413,6 +413,18 @@ def greet(name):      # name = parameter
     print(f"Hello {name}")
 greet("Deepak")       # "Deepak" = argument
 
+Default parameters: in arguments we give variable a default value
+Keyword Arguments: allow you to pass arguments to a function by explicitly stating the parameter name and its value (name=value).
+
+Local variable: created inside a function and can be only used inside the function
+Global variable: declared outside a function or class.
+
+return statement:a fundamental keyword used inside functions to send data back to the code that called it and instantly terminate the function's execution.
+
+recursion: where a function calls itself either directly or indirectly to solve a problem
+Base Case: The exit condition that stops the function from calling itself. Without this, your code will loop infinitely and crash.Recursive Case: The part of the code where the function calls itself with modified, smaller arguments.
+
+
 Types of FunctionsBuilt-in Functions: Pre-installed utilities ready to use out-of-the-box, such as print(), len(), type(), and max().User-Defined Functions: Custom blocks of code built by developers to handle specific application logic.Anonymous (Lambda) Functions: Short, single-expression functions created using the lambda keyword instead of def.Inner / Nested Functions: Functions defined inside another function, often used to hide helper logic or create closures.
 
 A lambda function is a small, anonymous function that is defined without a name. While normal functions in Python are created using the def keyword, lambda functions use the lambda keyword.
