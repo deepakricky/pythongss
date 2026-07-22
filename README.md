@@ -422,7 +422,9 @@ Global variable: declared outside a function or class.
 return statement:a fundamental keyword used inside functions to send data back to the code that called it and instantly terminate the function's execution.
 
 recursion: where a function calls itself either directly or indirectly to solve a problem
-Base Case: The exit condition that stops the function from calling itself. Without this, your code will loop infinitely and crash.Recursive Case: The part of the code where the function calls itself with modified, smaller arguments.
+
+Base Case: The exit condition that stops the function from calling itself. Without this, your code will loop infinitely and crash.
+Recursive Case: The part of the code where the function calls itself with modified, smaller arguments.
 
 
 Types of FunctionsBuilt-in Functions: Pre-installed utilities ready to use out-of-the-box, such as print(), len(), type(), and max().User-Defined Functions: Custom blocks of code built by developers to handle specific application logic.Anonymous (Lambda) Functions: Short, single-expression functions created using the lambda keyword instead of def.Inner / Nested Functions: Functions defined inside another function, often used to hide helper logic or create closures.
@@ -556,6 +558,8 @@ import math
 import random
 import date time
 import os
+from math import sqrt, factorial
+alias method: import math as m
 
 **Packages:**
 Package is a directory that contains multiple Python modules grouped together to structure code into a hierarchical, organized namespace.
