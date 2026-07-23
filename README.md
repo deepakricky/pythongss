@@ -492,13 +492,33 @@ with open("students.txt", "r") as file:
     lines = file.readlines()
 
 **Exception handling** in ⁠Python is a mechanism used to manage runtime errors and prevent applications from crashing abruptly.
-Syntax
+
+**try**: Wraps the segment of risky code that could potentially throw an unexpected runtime error.
+
+**except**: Catches specific errors and executes fallback logic when an exception is triggered inside the try block.
+
+**else**: Runs isolated code blocks only if the wrapped try block completes successfully without any exceptions.
+
+**finally**: Guarantees execution of a block regardless of success or failure, frequently applied to clean up resources like open database connections or files.
+
+**raise**:is used to manually trigger or force an exception to occur. This halts normal program execution and passes control upstream to the nearest matching error handler block
+
+Syntax:
 
 try:
     # risky code
 
 except:
     # handles error
+
+Example:
+try:
+    number=int(input("Enter a number: "))
+    print(100/number)
+except:
+    print("Something went wrong!")
+
+
 
 **OOPS**: It is a way of organizing the code by combining data that are know to be attributes and actions that are known to be methods into a single unit called object.
 OOP is a programming style where you organize code using objects and classes.
